@@ -28,7 +28,7 @@ use MpesaConnectPhp\Mpesa;
 
 // Substitua pelos valores reais
 $mpesa = new Mpesa('your-public-key', 'your-api-key', 'your-service-provider-code', 'sandbox');
-
+```
 ### Realizar uma Transação C2B
 
 ```php
