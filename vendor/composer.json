@@ -1,0 +1,38 @@
+{
+     "name": "delfimcelestino/mpesa-connect-php",
+     "description": "A PHP SDK for integrating MPesa payment services, including C2B, B2C, and other transaction methods.",
+     "type": "library",
+     "keywords": [
+          "mpesa",
+          "payment",
+          "sdk"
+     ],
+     "homepage": "https://github.com/delfimcelestino/mpesa-connect-php",
+     "license": "MIT",
+     "authors": [
+          {
+               "name": "Delfim Celestino",
+               "email": "denycelestino21@gmail.com"
+          }
+     ],
+     "require": {
+          "php": "^7.4 || ^8.0",
+          "guzzlehttp/guzzle": "^7.0"
+     },
+     "autoload": {
+          "psr-4": {
+               "MpesaConnectPhp\\": "src/"
+          }
+     },
+     "autoload-dev": {
+          "psr-4": {
+               "MpesaConnectPhp\\Tests\\": "tests/"
+          }
+     },
+     "scripts": {
+          "test": "phpunit"
+     },
+     "config": {
+          "optimize-autoloader": true
+     }
+}
