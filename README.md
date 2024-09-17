@@ -19,7 +19,7 @@ Aqui estão alguns exemplos de como usar a biblioteca para diferentes operaçõe
 
 ### Inicialização
 
-```bash
+```php
 <?php
 
 require 'vendor/autoload.php';
