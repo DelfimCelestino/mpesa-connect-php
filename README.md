@@ -8,7 +8,7 @@ Você pode instalar o pacote usando o Composer. Execute o seguinte comando:
 
 ```bash
 composer require delfimcelestino/mpesa-connect-php
-
+```
 ## Configuração
 
 Antes de usar a biblioteca, você precisa fornecer suas credenciais da MPesa. Isso pode ser feito diretamente ao instanciar a classe Mpesa.
@@ -18,6 +18,8 @@ Antes de usar a biblioteca, você precisa fornecer suas credenciais da MPesa. Is
 Aqui estão alguns exemplos de como usar a biblioteca para diferentes operações:
 
 ### Inicialização
+
+```bash
 <?php
 
 require 'vendor/autoload.php';
